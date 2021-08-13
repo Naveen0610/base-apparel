@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    
+font-family: 'Josefin Sans', sans-serif;
+}
+.hero{
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 100vh;
+    float: left;
+    background-size: cover;
+
+}
+.image{
+    margin-bottom: 70px;
+}
+.hero-1{
+    width: 40%;
+    height: 100vh;
+    float: right;
+}
+button{
+    height: 40px;
+    width: 60px;
+    border-width: inherit;
+    background: linear-gradient(135deg, hsl(0,80%,86%), hsl(0,74%,74%)
+    );
+    position: absolute;
+    left: 330px;
+    border-radius: 25px;
+}
+.total{
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 60px;
+    display: inline-block;
+}
+span{
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 10px;
+    line-height: 50px;
+
+}
+p{
+font-weight: 300;
+color:rgb(200,156,156);
+padding: 10px;
+font-size: 20px;
+line-height: 25px;
+margin-bottom: 20px;
+margin-top: 20px;
+
+}
+h1{
+ font-weight: 500;
+ color: rgb(246,181,182);
+ font-size: 50px;
+ letter-spacing: 10px;
+ line-height: 50px;   
+}
+.box{
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin-bottom: -5px;
+    background: transparent;
+    position: relative;
+}
